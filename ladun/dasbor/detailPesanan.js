@@ -22,7 +22,7 @@ var divDetailPesanan = new Vue({
     methods : {
         kembaliAtc : function()
         {
-            kembali()
+            kembali();
         }
     }
 });
