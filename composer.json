@@ -1,0 +1,12 @@
+{
+    "name": "niu-coffee",
+    "description": "Niu Coffee",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "niucoffee",
+            "email": "haxorsuinsu@gmail.com"
+        }
+    ],
+    "require": {}
+}

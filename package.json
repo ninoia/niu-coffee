@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/niucoffee",
+  "email": "nc@niucoffee.id",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.4.0"
+  }
+}
