@@ -22,7 +22,7 @@ var divDetailPesanan = new Vue({
     methods : {
         kembaliAtc : function()
         {
-
+            kembali()
         }
     }
 });
@@ -49,3 +49,8 @@ $.post(routeToGetDetailPesanan, {'kdPesanan':kdPesanan}, function(data){
     divDetailPesanan.kembali = obj.kembali;
     divDetailPesanan.operator = obj.operator;
 });
+
+function kembali() {
+    renderMenu(pesanan)
+    divJudul.judulForm = "Pesanan";
+}

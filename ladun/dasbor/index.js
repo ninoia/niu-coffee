@@ -159,7 +159,7 @@ var divMenu = new Vue({
     pembelianBahanBakuAtc : function()
     {
       renderMenu(pembelianBahanBaku);
-      divJudul.judulForm = "Pembelian Bahan aku";
+      divJudul.judulForm = "Pembelian Bahan Baku";
     },
     pengeluaranAtc : function()
     {

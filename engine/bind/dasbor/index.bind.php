@@ -42,7 +42,7 @@
          </form>
          <ul class="navbar-nav navbar-right">
          <li class="dropdown dropdown-list-toggle">
-           <a href="#!" @click='lihatNotifAtc' data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep" id='capNotif'><i class="far fa-bell"></i></a>
+           <!-- <a href="#!" @click='lihatNotifAtc' data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep" id='capNotif'><i class="far fa-bell"></i></a>
             <div class="dropdown-menu dropdown-list dropdown-menu-right">
               <div class="dropdown-header">Notifikasi Niu {{capFlash}}</div>
               <div class="dropdown-list-content dropdown-list-icons">
@@ -59,7 +59,7 @@
               <div class="dropdown-footer text-center">
                 <a href="#!" @click='lihatNotifikasiAllAtc'>Lihat semua <i class="fas fa-chevron-right"></i></a>
               </div>
-            </div>
+            </div> -->
           </li>
            <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
              <img alt="image" src="<?=STYLEBASE; ?>/dasbor/img/avatar-1.png" class="rounded-circle mr-1">

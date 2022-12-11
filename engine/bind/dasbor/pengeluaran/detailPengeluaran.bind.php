@@ -67,7 +67,7 @@
                     <a class="btn btn-primary btn-icon icon-left" href="<?=HOMEBASE; ?>cetak/invoicePengeluaranResto/<?=strtoupper($data['kdTransaksi']); ?>" target="_new">
                         <i class="fas fa-print"></i> Cetak
                     </a>
-                    <a class="btn btn-warning btn-icon icon-left" href='#!'>
+                    <a class="btn btn-warning btn-icon icon-left" href='#!' @click='kembaliAtc'>
                         <i class="fas fa-reply"></i> Kembali
                     </a>
                 </div>

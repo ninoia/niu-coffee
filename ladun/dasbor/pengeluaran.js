@@ -16,7 +16,7 @@ var divPengeluaran = new Vue({
         },
         kembaliAtc : function()
         {
-            divMenu.pengeluaranAtc();
+            kembali();
         },
         simpanAtc : function()
         {
@@ -47,6 +47,12 @@ $('#tblHistoryPengeluaran').on('click', '.btnDetail', function(){
     renderMenu("pengeluaran/detailPengeluaran/"+kdTransaksi);
     divJudul.judulForm = "Detail Pengeluaran"; 
 });
+
+function kembali()
+{
+    renderMenu(pengeluaran);
+    divJudul.judulForm = "Pengeluaran";
+}
 
 function konfirmasiSimpan()
 {
